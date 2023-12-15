@@ -14,15 +14,15 @@
   /* colors */
   --link-color: #035fe6;
   --link-hover-color: #136ff6;
-  --background-color: white;
+  --background-color: #161616;
   --light-color: #eee;
   --dark-color: #ccc;
-  --text-color: black;
+  --text-color: #FFFFFF;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback;
+  --body-font-family: "IBM Plex Sans","Helvetica Neue",Arial,sans-serif;
   --heading-font-family: var(--body-font-family);
-  --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+  --fixed-font-family: "IBM Plex Sans","Helvetica Neue",Arial,sans-serif;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -38,11 +38,11 @@
   --heading-font-size-xs: 18px;
 
   /* nav height */
-  --nav-height: 64px;
+  --nav-height: 48px;
 }
 
 @font-face {
-  font-family: roboto-fallback;
+  font-family: "IBM Plex Sans","Helvetica Neue",Arial,sans-serif;
   size-adjust: 100.06%;
   ascent-override: 95%;
   src: local('Arial');
